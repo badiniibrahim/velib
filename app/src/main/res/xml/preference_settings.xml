@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Settings"
+        android:key="settings_key">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:id="@+id/maps_key_id"
+            android:title="Change Maps"
+            android:key="maps_key"/>
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

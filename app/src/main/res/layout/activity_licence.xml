@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.badiniibrahim.EuropeVelibStations.Activity.Licence">
+
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            card_view:cardBackgroundColor="@color/item_color"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="4dp">
+
+            <TextView
+                android:gravity="center"
+                android:text="@string/licence_titre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/licence"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/card_view"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="4dp">
+
+            <TextView
+                android:gravity="center"
+                android:text="@string/licence"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/a_propos"
+            android:layout_below="@+id/licence"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            card_view:cardBackgroundColor="@color/item_color"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="4dp">
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="@string/a_propos"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/desc"
+            android:layout_below="@+id/a_propos"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="4dp">
+
+            <TextView
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:text="@string/desc"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+</LinearLayout>

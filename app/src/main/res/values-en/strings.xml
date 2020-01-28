@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Europe Velib Stations</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="adresse_non_disponible">Adresse non disponible</string>
+    <string name="ajouter_vos_favoris">Ajouter à vos favoris</string>
+
+
+    <string name="title_home">Map</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Favoris</string>
+    <string name="title_activity_favorite">FavoriteActivity</string>
+    <string name="default_value">NON</string>
+
+    <string name="licence_titre">Licence</string>
+    <string name="a_propos">A propos</string>
+
+    <string name="licence">Toutes les données appartiennent à la JCDecaux et sont utilisées dans un but
+        strictement personnel ou de recherche et non dans un but commercial.</string>
+
+    <string name="desc">Velib Stations est une
+        application gratuite  qui vous
+        permet de trouver  les stations velib les plus proches de vous partout en France et en Europe.
+    L\'application permet :\n
+        •	La localisation des stations les plus proches de vous.\n
+        •	De voir la disponibilité des vélos et des emplacements libres\n
+        •	Ajouter des stations à vos favoris\n
+</string>
+
+
+    <!--parameter of pub-->
+    <string name="id_app">ca-app-pub-3747832610647465~6171411833</string>
+
+    <string name="body_annonce">ca-app-pub-3747832610647465/7648145036</string>
+</resources>
